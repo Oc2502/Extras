@@ -1,3 +1,36 @@
 .logo{
   width: 70px;
+  margin: 10px;
+  align-self: baseline;
+}
+
+.main__page{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.carousel__title{
+  margin-top: 20px;
+}
+.carousel{
+  display: flex;
+}
+
+.movie__card{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border: 1px rgb(105, 105, 105) solid;
+  padding: 5px;
+  height: 300px;
+  width: 200px;
+}
+
+.movie__card img{
+  height: 80%;
+  width: 80%;
+  margin: 10px 0;
+  align-self: center;
 }
